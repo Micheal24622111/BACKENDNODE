@@ -1,0 +1,23 @@
+GET http://localhost:3000
+###
+POST http://localhost:3000/products 
+###
+http://localhost:3000/test?name=iphone 17 pro&price=33333
+
+
+###
+POST http://localhost:3000/test
+
+Content-Type: application/json 
+
+{ 
+    "title": "iphone 16 pro max",
+     "price": 1199 
+
+}
+
+###
+POST http://localhost:3000/test
+Content-Type: application/x-www-form-urlencoded
+
+title=iphone 16 Pro Max&price=119
